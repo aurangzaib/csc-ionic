@@ -1,22 +1,104 @@
+Please select desired mobile Push Notifications for Cisco Support Community activity.
+
 <ion-view view-title="Push Notifications">
-  <ion-content>
-    <ion-list>
+   <ion-content>
       <ion-toggle>
-        Receive all Push Notifications
+         Announcements Posted
       </ion-toggle>
-
+      <div class="item item-divider">
+         General
+      </div>
       <ion-toggle>
-        Announcements Posted
+         Receive all Push Notifications
       </ion-toggle>
+      <ion-list>
+         <ion-toggle>
+            Messages
+         </ion-toggle>
 
-      <ion-toggle>
-        Messages
-      </ion-toggle>
+         <ion-toggle>
+            When a user starts to follow me
+         </ion-toggle>
 
-      <ion-toggle ng-model="settings.enableFriends">
-        When a user starts to follow me
-      </ion-toggle>
+         <div class="item item-divider">
+            Community
+         </div>
+         <ion-toggle>
+            Discussions Created
+         </ion-toggle>
+         <ion-list>
+            <ion-toggle>
+               Discussions Created
+            </ion-toggle>
 
-    </ion-list>
-  </ion-content>
+            <ion-toggle>
+               Blogs Created
+            </ion-toggle>
+            <ion-toggle>
+               Videos Created
+            </ion-toggle>
+            <ion-toggle>
+               Events Created
+            </ion-toggle>
+            <ion-toggle>
+               Comments or Replies in the Community
+            </ion-toggle>
+         </ion-list>
+
+
+         <div class="item item-divider">
+            Discussions
+         </div>
+         <ion-toggle>
+            Discussions I Post
+         </ion-toggle>
+         <ion-list>
+            <ion-toggle>
+               Discussions I vote on
+            </ion-toggle>
+
+            <ion-toggle>
+               Discussions I reply to
+            </ion-toggle>
+            <ion-toggle>
+               Discussions endorsed
+            </ion-toggle>
+         </ion-list>
+
+
+         <div class="item item-divider">
+            Blogs
+         </div>
+         <ion-toggle>
+            Blogs I Create
+         </ion-toggle>
+         <ion-list>
+            <ion-toggle>
+               Blogs I comment on
+            </ion-toggle>
+         </ion-list>
+
+         <div class="item item-divider">
+            Documents
+         </div>
+         <ion-toggle>
+            Documents I Create
+         </ion-toggle>
+         <ion-list>
+            <ion-toggle>
+               Documents I comment on
+            </ion-toggle>
+         </ion-list>
+
+         <div class="item item-divider">
+            Events
+         </div>
+         <ion-toggle>
+            Events I Commented On
+         </ion-toggle>
+         <ion-list>
+            <ion-toggle>
+               Events I add to my calendar
+            </ion-toggle>
+   </ion-content>
 </ion-view>
